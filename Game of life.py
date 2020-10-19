@@ -1,6 +1,6 @@
 """"
 Game of life by conway Is nice simple game have 4 rule.Imagine we play on bord have cells , every cell has two conditions live our die.
-1: If a cell have 0  , 1   , 2 or more than 3 neighbor cells it will die
+1: If a cell have 0 , 1   , 2 or more than 3 neighbor cells it will die
 2: If a cell have have exactly 3 neighbor cells  will live
 
 note : to remained myself : I used thread when I user click start button to run the main_game
