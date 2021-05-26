@@ -38,7 +38,7 @@ class button():  # define button class to save time from reiniate the button
             pg.draw.rect(screen, (100, 100, 100), [self.x, self.y, self.width, self.length], 0)
         else:
             pg.draw.rect(screen, (200, 200, 200), [self.x, self.y, self.width, self.length], 0)
-        font = pg.font.Font(pg.font.get_default_font(), 15)
+        font=pg.font.SysFont('arial', int(23))
         txt = font.render(str(self.text), True, (255, 255, 255))
         screen.blit(txt,(self.x + int(self.width / 2 - txt.get_width() / 2), self.y + int(self.length / 2 - txt.get_height() / 2)))
         
@@ -243,7 +243,7 @@ def scan(cells,white_cell,stop):
 def main_game(stop):
     global white_cell
     global cell
-    sleep_t = 0.5
+    sleep_t = 0.1
     while (len(white_cell)>0):
         cell,white_cell = scan(cell,white_cell,stop)
         time.sleep(sleep_t)
@@ -418,7 +418,7 @@ def main():
     screen = pg.display.set_mode((550, 442), pg.RESIZABLE)
     # initiate some variable
     small_cell = False
-    font = pg.font.Font(pg.font.get_default_font(), 10)
+    font=pg.font.SysFont('arial', int(12))
     press = False  # to check if the the right mouse has clicked
     going = True  # stop while
     hide = True  # hide the background
