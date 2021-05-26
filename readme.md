@@ -14,7 +14,7 @@
 
 # Demo:
 
-try demo demo of the application [click here]("/dist/")
+try demo demo of the application [click here]("./dist/dynamic_game_of_life.exe")
 
 # Rules 📏:
 
