@@ -14,7 +14,7 @@
 
 # Demo:
 
-try demo demo of the application [click here]("./dist/")
+try demo demo of the application [click here]("https://github.com/MURHAF-ELMASRI/game-of-life-conway/blob/master/dist/dynamic_game_of_life.exe")
 
 # Rules 📏:
 
