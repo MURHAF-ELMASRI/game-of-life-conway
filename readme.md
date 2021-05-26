@@ -14,7 +14,7 @@
 
 # Demo:
 
-try demo demo of the application [click here]("https://github.com/MURHAF-ELMASRI/game-of-life-conway/blob/master/dist/dynamic_game_of_life.exe")
+try demo demo of the application [click-here](./dist/dynamic_game_of_life.exe)
 
 # Rules 📏:
 
@@ -36,7 +36,7 @@ try demo demo of the application [click here]("https://github.com/MURHAF-ELMASRI
 
 # Project 📃 :
 
-## [Game of life.py](<'./Game of life.py'>)
+## [Game of life.py](./Game of life.py)
 
 When I start developing the project I use brute force approach to make the game.<br>
 Every Cell either 1: live or 0: die
@@ -48,7 +48,7 @@ Every Cell either 1: live or 0: die
 -   if they apply rules listed above add the new state
 -   display the new state of the board
 
-## [dynamic_game_of_life.py]("./dynamic_game_of_life.py")
+## [dynamic_game_of_life.py](./dynamic_game_of_life.py)
 
 The game in the first program was too slow so I think why would I loop over all cells while I just need to check the live cells and the cells around it because no cells will come to life without a live cell beside it.<br>
 And this what they called it **dynamic programming**
