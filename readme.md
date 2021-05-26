@@ -36,7 +36,7 @@ try demo demo of the application [click-here](./dist/dynamic_game_of_life.exe)
 
 # Project 📃 :
 
-## [Game of life.py](./Game of life.py)
+## [Game of life.py](<./Game of life.py>)
 
 When I start developing the project I use brute force approach to make the game.<br>
 Every Cell either 1: live or 0: die
